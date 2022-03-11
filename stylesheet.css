@@ -1,0 +1,251 @@
+body {
+    font-family: "Avenir Next";
+  }
+
+li {
+    list-style: none;
+}
+  
+
+  .header {
+    background-color: #1c3863;
+    color: rgba(250, 250, 250, 0.932);
+    height: 90px;
+  }
+  
+  .header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+    font-family: "Bauhaus 93";
+
+  }
+
+  .header-right {
+    float: right;
+    display: inline-block;
+    
+    margin: 10px;
+    /* padding: 12px 20px; */
+    opacity: 1;
+   
+    
+  }
+
+  .login:hover {
+    background-color: rgba(99, 135, 158, 0.603);
+  }
+
+  .registers:hover {
+    background-color: rgba(133, 169, 192, 0.603);
+  }
+
+  .login {
+    line-height: 30px;
+    padding: 0 20px;
+    color: rgb(253, 253, 253);
+    display: block;
+    text-align: center;
+    transition: all 0.5s;
+    border-radius: 10px;
+    background-color: rgba(97, 87, 231, 0.918);
+  }
+
+  .registers {
+    line-height: 30px;
+    padding: 0 20px;
+    margin: 10px 0;
+    color: rgb(253, 253, 253);
+    display: block;
+    text-align: center;
+    transition: all 0.5s;
+    border-radius: 10px;
+    background-color: rgba(97, 87, 231, 0.918);
+  }
+  
+  .header-list a {
+      padding: 0px 20px;
+      
+     
+  }
+
+  .header-list li {
+      float: left;
+      /* position: relative; */
+      padding: 60px 10px 0px 10px;
+      display: inline-block;
+      /* margin: 30px 0; */
+      /* margin-left: 50px; */
+      
+  }
+
+  .home {
+    line-height: 30px;
+    /* padding: 0 20px; */
+    /* margin: 10px 0; */
+    color: rgb(253, 253, 253);
+    display: block;
+    text-align: center;
+    transition: all 0.5s;
+    border-radius: 10px;
+    margin-left: 370px;
+    background-color: rgba(85, 153, 231, 0.918);
+  }
+
+  .wisata {
+    line-height: 30px;
+    /* padding: 0 0px; */
+    /* margin: 10px 0; */
+    color: rgb(253, 253, 253);
+    display: block;
+    text-align: center;
+    transition: all 0.5s;
+    border-radius: 10px;
+    background-color: rgba(85, 153, 231, 0.918);
+  }
+  
+  .about {
+    line-height: 30px;
+    /* padding: 0 20px; */
+    /* margin: 10px 0; */
+    color: rgb(253, 253, 253);
+    display: block;
+    text-align: center;
+    transition: all 0.5s;
+    border-radius: 10px;
+    margin-right: 370px;
+    background-color: rgba(85, 153, 231, 0.918);
+  }
+
+  .home:hover {
+    background-color: rgba(99, 135, 158, 0.603);
+  }
+
+  .wisata:hover {
+    background-color: rgba(99, 135, 158, 0.603);
+  }
+
+  .about:hover {
+    background-color: rgba(99, 135, 158, 0.603);
+  }
+  
+  .container {
+    /* width: 1170px; */
+    /* padding: 0 0px; */
+    margin: 0 auto;
+
+    padding: 200px 0px 100px 0px;
+    background-image: url(https://independensi.com/wp-content/uploads/2018/01/180117-Bromo-Tengger-Jawa-Timur.jpg);
+    background-size: cover;
+    color: rgb(250, 251, 252);
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 0 0px;
+  }
+
+  .container h1 {
+      font-family: "Harrington";
+      font-size: 48px;
+  }
+
+  .container h2 {
+    font-family: "Harrington";
+    font-size: 36px;
+  }
+
+  .lesson-wrapper {
+    height: 1050px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #4d4c4e;
+  }
+  
+  .heading h2 {
+    font-weight: normal bold;
+    font-family: "Clarendon Blk BT";
+    font-size: 36px;
+  }
+  
+  .lesson {
+    float: left;
+    width: 33.3%;
+    padding-bottom: 30px;
+  }
+
+  .lesson_bawah {
+      float: left;
+      width: 50%;
+  }
+
+  
+  .lesson-icon {
+    position: relative;
+  }
+  
+  .lesson-icon p {
+    position: relative;
+    color: #4d4c4e;
+    font-size: 24px;
+    
+  }
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    padding: 0px 5px;
+    font-size: 18px;
+    color: #464247fb;
+  }
+
+  .tegal {
+    height: 250px;
+    width: 380px;
+    border-radius: 5px;
+    margin-left: 20px;
+  }
+
+  .jambi {
+    height: 250px;
+    width: 380px;
+    border-radius: 5px;
+  }
+
+  .yogya {
+    height: 250px;
+    width: 380px;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+
+  .madiun {
+    height: 250px;
+      width: 400px;
+      border-radius: 5px;
+  }
+
+  .bogor {
+    height: 250px;
+    width: 400px;
+    border-radius: 5px;
+  }
+
+ footer h3 {
+     font-family: "Bauhaus 93";
+     color: #1c3863;
+ }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding-top: 10px;
+  }
